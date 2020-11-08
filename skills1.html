@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+<link rel="stylesheet" type="text/css" href="skills1.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/50aed95520.css">
+</head>
+<body>
+<div class="container">
+    <div class="left-section">
+           <h1 class="heading">All Skills</h1>
+           <div>  
+            <span id="totalSkills">Total Skill (100) </span>
+           </div>
+        <div class="skill-list">
+            <input
+            class="input" type="text" name="Search Skill"  id=""  placeholder="SEARCH SKILL"/>
+            <div class="inside-wrapper" id="selectSkills" >
+              <!----  <div class="skills" ></div> -->
+        </div>
+    </div>
+    </div>
+           <div class="buttons">
+            <div class="button-left"><i class="fa fa-4x fa-arrow-left" id="add-left" aria-hidden="true" onclick="addElement(this)" ></i></div>
+          <div class="button-right"><i class="fa fa-4x fa-arrow-right" id="add-right" aria-hidden="true" onclick="removeElement(this)"></i></div>
+           </div>
+           <div class="right-section">
+            <h1 class="heading">Selected Skills</h1>
+            <div>  
+                <span id="resultSkill" >Total Selected  Skills (10) </span>
+         </div>
+            <div id="addSkill">
+                <input type="text" value=""  placeholder="Search Skills"/>
+              <div class="inside-wrapper" id="addSkills">
+                   <!----  <div class="skills" ></div> -->
+                  </div>
+            </div>
+           </div>
+</div>
+<script src="Skills1.js"></script>
+</body>
+</html>
